@@ -1,0 +1,29 @@
+# Java / Maven
+backend/target/
+target/
+*.class
+*.jar
+*.war
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs / crash dumps
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Local env / OS
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
